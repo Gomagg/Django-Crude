@@ -5,7 +5,7 @@ from django.views.generic.edit import UpdateView
 from django.views.generic.edit import DeleteView
 from django.views.generic.detail import DetailView
 from django.urls import reverse_lazy
-from .models import Pos
+from .models import Post
 # Create your views here.
 class PostListView(ListView):
     model = Post
